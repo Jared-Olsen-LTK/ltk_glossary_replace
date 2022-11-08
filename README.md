@@ -11,8 +11,9 @@ Note this requires "json", "requests", and "time" python libraries, and uses pyt
 4. Delete the old glossary.
 
 The script will print() you all the projects it will try to run on, and if a project has the old master, it will replace it with the new. 
-If the old master is not present, it will not replace it.
+If the old glossary is not present, it will not add the new one.
 
 To acquire all the necessary input info beyond the glossary names:
 * User Token: Log in to the TMS as your admin user (or assume its identity) and go to https://myaccount.lingotek.com/lingopoint/api/4/getApi5Token
 * Community API5 UUID and API4 ID: Go to Community > Customization https://myaccount.lingotek.com/project/community/customization/communityinfo
+* Note that glossaries are found by name. It doesn't check UUID, so if it finds multiple, it'll use the last one it finds.
