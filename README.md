@@ -12,3 +12,7 @@ Note this requires "json", "requests", and "time" python libraries, and uses pyt
 
 The script will print() you all the projects it will try to run on, and if a project has the old master, it will replace it with the new. 
 If the old master is not present, it will not replace it.
+
+To acquire all the necessary input info beyond the glossary names:
+* User Token: Log in to the TMS as your admin user (or assume its identity) and go to https://myaccount.lingotek.com/lingopoint/api/4/getApi5Token
+* Community API5 UUID and API4 ID: Go to Community > Customization https://myaccount.lingotek.com/project/community/customization/communityinfo
