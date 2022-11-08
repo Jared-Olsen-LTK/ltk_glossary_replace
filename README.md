@@ -6,9 +6,9 @@ Note this requires "json", "requests", and "time" python libraries, and uses pyt
 2. Upload your glossary file into the new glossary.
 3. When the import process finishes, run this script.
       * It's good to check if the glossary got at least some of the entries before running, just as a spot check.
-      * Also check if the new glossary (instead of the old one) is listed on at least one project before you do step 4. This lets you know in the TMS that it worked.
+      * Also check if the new glossary (instead of the old one) is listed on at least one project. This lets you know in the TMS that it worked.
       * Script tells you all the projects that it runs on, and how many requests it had to make to run in its entirety.
-4. Delete the old glossary.
+4. If you don't need the old glossary at this point, feel free to delete it.
 
 The script will print() you all the projects it will try to run on, and if a project has the old master, it will replace it with the new. 
 If the old glossary is not present, it will not add the new one.
