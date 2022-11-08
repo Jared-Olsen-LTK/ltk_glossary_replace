@@ -50,7 +50,7 @@ for i in projectlist["entities"]:
         activeprojects.append(i["properties"]["id"])
         print(i["properties"]["title"])
         
-print("Checking {0} projects for Master glossary.".format(len(activeprojects)))
+print("Checking {0} projects for old glossary.".format(len(activeprojects)))
 
 # These are the API4 requests made within the TMS itself when you add or remove a glossary from a project.
 # Fortunately, API4 accepts API5 UUIDs which makes this easier.
