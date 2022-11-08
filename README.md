@@ -10,7 +10,7 @@ Note this requires "json", "requests", and "time" python libraries, and uses pyt
       * Script tells you all the projects that it runs on, and how many requests it had to make to run in its entirety.
 4. If you don't need the old glossary at this point, feel free to delete it.
 
-The script will print() you all the projects it will try to run on, and if a project has the old master, it will replace it with the new. 
+The script will print() you all the projects it will try to run on, and if a project has the old glossary, it will replace it with the new one in project resources. 
 If the old glossary is not present, it will not add the new one.
 
 To acquire all the necessary input info beyond the glossary names:
