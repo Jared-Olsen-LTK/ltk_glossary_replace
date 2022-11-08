@@ -4,7 +4,7 @@ Note this requires "json", "requests", and "time" python libraries, and uses pyt
 
 1. Create a new glossary while assumed as your TMS community's admin user.
 2. Upload your glossary file into the new glossary.
-3. When the import process finishes, run this script.
+3. When the import process finishes, run this script to replace references to the old glossary with references to the new.
       * It's good to check if the glossary got at least some of the entries before running, just as a spot check.
       * Also check if the new glossary (instead of the old one) is listed on at least one project. This lets you know in the TMS that it worked.
       * Script tells you all the projects that it runs on, and how many requests it had to make to run in its entirety.
